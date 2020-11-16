@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Exercice 3 Parti 5</title>
+</head>
+<body>
+    <form>
+        <div>
+            <input type="mail" name="email" id="email" placeholder="Adresse Mail" onkeyup="validateMail()" />
+            <p id="errorMailAddress" class="hiddenMessage">Adresse mail invalide</p>
+        </div>
+        <div>
+            <input type="text" id="name" name="name" placeholder="Nom" onkeyup="validateName()"/>
+            <p id="errorMessageName" class="hiddenMessage">Votre nom est invalide</p>
+        </div>
+        <div>
+            <input type="text" name="age" id="age" placeholder="Age" onkeyup="validateAge()" />
+            <p id="errorAge" class="hiddenMessage">Votre age est invalide</p>
+        </div>
+    </form>
+    <script src="assets/JS/main.js"></script>
+</body>
+</html>
